@@ -4,6 +4,8 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 import HomePage from './pages/home';
 import DashboardPage from './pages/dashboard'
+import CallbackPage from "./pages/callback";
+import Auth from "./components/Auth"
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={HomePage}/>
           <Route exact path="/dashboard" component={DashboardPage}/>
+          <Route path="/callback" component={CallbackPage}/>
         </Switch>
       </Router>
     </div>
