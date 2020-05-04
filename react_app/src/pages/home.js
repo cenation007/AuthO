@@ -4,7 +4,7 @@ import {Redirect} from "react-router-dom";
 import {AuthConsumer } from "../authContext";
 import Login from "../components/Login"
 //import PostsLists from "../components/PostsLists";
-import Auth from '../components/Auth';
+//import Auth from '../components/Auth';
 
 const HomePage = () => (
     <AuthConsumer>
