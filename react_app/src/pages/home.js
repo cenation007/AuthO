@@ -15,7 +15,6 @@ const HomePage = () => (
                <div>
                    <h2>Welcome to react app</h2>
                    <Login />
-                   
                </div>
            )
         }
